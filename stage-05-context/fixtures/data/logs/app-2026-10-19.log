@@ -1,0 +1,160 @@
+2026-10-19T08:00:41.449Z INFO api-gateway OK endpoint=/api/cart status=200 latency_ms=158 req=879cd0f0
+2026-10-19T08:00:56.488Z INFO api-gateway OK endpoint=/api/cart status=200 latency_ms=160 req=7bab1dd3
+2026-10-19T08:01:33.688Z INFO api-gateway OK endpoint=/api/orders status=200 latency_ms=167 req=ffd85f22
+2026-10-19T08:02:03.768Z INFO api-gateway OK endpoint=/api/orders status=200 latency_ms=59 req=878dbe3d
+2026-10-19T08:02:56.234Z WARN auth-service REFRESH_CONCURRENT endpoint=/api/auth/refresh status=200 latency_ms=22 req=c95b2b05 session=s136
+2026-10-19T08:02:56.256Z ERROR auth-service ERR_TOKEN_REFRESH_RACE endpoint=/api/auth/refresh status=500 latency_ms=54 req=5da342da session=s136 detail=refresh_token_already_rotated
+2026-10-19T08:03:33.358Z INFO auth-service OK endpoint=/api/auth/login status=200 latency_ms=14 req=2ef0c2bd
+2026-10-19T08:05:02.134Z WARN api-gateway WARN_SLOW_QUERY endpoint=/api/orders status=200 latency_ms=2369 req=7772da9a
+2026-10-19T08:05:49.170Z INFO payment-service OK endpoint=/api/payments status=200 latency_ms=172 req=35aa6eba
+2026-10-19T08:06:54.126Z ERROR api-gateway ERR_CACHE_STAMPEDE endpoint=/api/products status=503 latency_ms=2376 req=95714431
+2026-10-19T08:07:27.700Z WARN auth-service REFRESH_CONCURRENT endpoint=/api/auth/refresh status=200 latency_ms=52 req=c6d6d018 session=s847
+2026-10-19T08:07:27.710Z ERROR auth-service ERR_TOKEN_REFRESH_RACE endpoint=/api/auth/refresh status=500 latency_ms=56 req=d09d00e8 session=s847 detail=refresh_token_already_rotated
+2026-10-19T08:08:01.746Z ERROR api-gateway ERR_DB_TIMEOUT endpoint=/api/orders status=500 latency_ms=3631 req=29676db3
+2026-10-19T08:09:32.396Z INFO api-gateway OK endpoint=/api/products status=200 latency_ms=147 req=e5321554
+2026-10-19T08:10:49.351Z INFO payment-service OK endpoint=/api/payments status=200 latency_ms=55 req=bbf07d0e
+2026-10-19T08:11:16.573Z INFO api-gateway OK endpoint=/api/checkout status=200 latency_ms=158 req=3d1adcec
+2026-10-19T08:11:36.917Z INFO auth-service OK endpoint=/api/auth/refresh status=200 latency_ms=73 req=7213a094
+2026-10-19T08:12:07.114Z INFO auth-service OK endpoint=/api/auth/refresh status=200 latency_ms=94 req=c0b2e378
+2026-10-19T08:12:14.921Z INFO auth-service OK endpoint=/api/auth/refresh status=200 latency_ms=159 req=9c7ac52d
+2026-10-19T08:13:44.028Z INFO api-gateway OK endpoint=/api/orders status=200 latency_ms=170 req=f2765359
+2026-10-19T08:14:19.149Z WARN api-gateway WARN_SLOW_QUERY endpoint=/api/orders status=200 latency_ms=1774 req=bb131988
+2026-10-19T08:15:31.647Z INFO api-gateway OK endpoint=/api/cart status=200 latency_ms=21 req=7b95577a
+2026-10-19T08:16:50.017Z INFO auth-service OK endpoint=/api/auth/login status=200 latency_ms=120 req=0298d58e
+2026-10-19T08:18:01.011Z ERROR auth-service ERR_RATE_LIMIT endpoint=/api/auth/login status=429 latency_ms=3057 req=09690b03
+2026-10-19T08:19:01.591Z INFO auth-service OK endpoint=/api/auth/refresh status=200 latency_ms=104 req=fea31101
+2026-10-19T08:20:00.796Z INFO api-gateway OK endpoint=/api/checkout status=200 latency_ms=40 req=fd78a4d0
+2026-10-19T08:20:21.257Z WARN api-gateway WARN_SLOW_QUERY endpoint=/api/orders status=200 latency_ms=1799 req=c2e9c47c
+2026-10-19T08:20:38.354Z INFO auth-service OK endpoint=/api/auth/refresh status=200 latency_ms=93 req=2839b9e3
+2026-10-19T08:22:00.068Z INFO payment-service OK endpoint=/api/payments status=200 latency_ms=69 req=31d38c3f
+2026-10-19T08:22:24.020Z INFO auth-service OK endpoint=/api/auth/login status=200 latency_ms=10 req=b03a6ac2
+2026-10-19T08:23:11.208Z INFO api-gateway OK endpoint=/api/orders status=200 latency_ms=14 req=0f138a43
+2026-10-19T08:24:33.770Z INFO api-gateway OK endpoint=/api/orders status=200 latency_ms=76 req=076350b1
+2026-10-19T08:26:01.144Z INFO api-gateway OK endpoint=/api/checkout status=200 latency_ms=169 req=a9afcae5
+2026-10-19T08:26:07.186Z INFO auth-service OK endpoint=/api/auth/login status=200 latency_ms=76 req=3ff03537
+2026-10-19T08:26:18.812Z INFO payment-service OK endpoint=/api/payments status=200 latency_ms=87 req=f5be8601
+2026-10-19T08:27:38.987Z INFO api-gateway OK endpoint=/api/products status=200 latency_ms=158 req=efbbcb1f
+2026-10-19T08:28:27.544Z WARN api-gateway WARN_SLOW_QUERY endpoint=/api/orders status=200 latency_ms=2889 req=42b27ca7
+2026-10-19T08:29:12.459Z INFO auth-service OK endpoint=/api/auth/refresh status=200 latency_ms=18 req=1ebd8265
+2026-10-19T08:30:22.595Z INFO auth-service OK endpoint=/api/auth/login status=200 latency_ms=16 req=45cd6302
+2026-10-19T08:30:32.018Z INFO auth-service OK endpoint=/api/auth/refresh status=200 latency_ms=153 req=ac3861a6
+2026-10-19T08:31:38.253Z ERROR payment-service ERR_UPSTREAM_502 endpoint=/api/payments status=502 latency_ms=4336 req=69f9232a
+2026-10-19T08:32:06.520Z INFO payment-service OK endpoint=/api/payments status=200 latency_ms=60 req=caf1395f
+2026-10-19T08:32:20.620Z WARN api-gateway WARN_SLOW_QUERY endpoint=/api/orders status=200 latency_ms=1527 req=f83bac35
+2026-10-19T08:33:37.937Z INFO api-gateway OK endpoint=/api/products status=200 latency_ms=31 req=525e091f
+2026-10-19T08:34:24.493Z INFO api-gateway OK endpoint=/api/cart status=200 latency_ms=110 req=61bae1fb
+2026-10-19T08:35:03.588Z WARN api-gateway WARN_SLOW_QUERY endpoint=/api/orders status=200 latency_ms=1824 req=b35fcf4d
+2026-10-19T08:36:19.279Z WARN auth-service REFRESH_CONCURRENT endpoint=/api/auth/refresh status=200 latency_ms=32 req=5eae517d session=s325
+2026-10-19T08:36:19.299Z ERROR auth-service ERR_TOKEN_REFRESH_RACE endpoint=/api/auth/refresh status=500 latency_ms=60 req=3193e476 session=s325 detail=refresh_token_already_rotated
+2026-10-19T08:37:10.500Z INFO api-gateway OK endpoint=/api/products status=200 latency_ms=97 req=360e0d07
+2026-10-19T08:37:17.249Z INFO api-gateway OK endpoint=/api/orders status=200 latency_ms=142 req=7fb09ab7
+2026-10-19T08:38:27.274Z WARN api-gateway WARN_SLOW_QUERY endpoint=/api/orders status=200 latency_ms=2580 req=4542de07
+2026-10-19T08:38:52.560Z INFO payment-service OK endpoint=/api/payments status=200 latency_ms=101 req=e3ae0391
+2026-10-19T08:39:24.102Z ERROR api-gateway ERR_DB_TIMEOUT endpoint=/api/orders status=500 latency_ms=2120 req=c0533bb9
+2026-10-19T08:40:26.526Z INFO payment-service OK endpoint=/api/payments status=200 latency_ms=46 req=8e4f4ba9
+2026-10-19T08:41:27.845Z INFO api-gateway OK endpoint=/api/checkout status=200 latency_ms=176 req=a19202fd
+2026-10-19T08:42:06.060Z ERROR payment-service ERR_UPSTREAM_502 endpoint=/api/payments status=502 latency_ms=3357 req=d638944e
+2026-10-19T08:43:19.037Z WARN api-gateway WARN_SLOW_QUERY endpoint=/api/orders status=200 latency_ms=1821 req=38cd1a88
+2026-10-19T08:43:36.854Z INFO auth-service OK endpoint=/api/auth/login status=200 latency_ms=159 req=69405c64
+2026-10-19T08:45:05.769Z INFO api-gateway OK endpoint=/api/checkout status=200 latency_ms=85 req=556627cf
+2026-10-19T08:46:30.628Z INFO api-gateway OK endpoint=/api/cart status=200 latency_ms=23 req=e4349d3b
+2026-10-19T08:46:48.281Z ERROR api-gateway ERR_DB_TIMEOUT endpoint=/api/orders status=500 latency_ms=1273 req=ae4bd31c
+2026-10-19T08:47:15.310Z WARN auth-service REFRESH_CONCURRENT endpoint=/api/auth/refresh status=200 latency_ms=23 req=ff395dd5 session=s436
+2026-10-19T08:47:15.346Z ERROR auth-service ERR_TOKEN_REFRESH_RACE endpoint=/api/auth/refresh status=500 latency_ms=29 req=27e929e8 session=s436 detail=refresh_token_already_rotated
+2026-10-19T08:47:45.939Z INFO api-gateway OK endpoint=/api/cart status=200 latency_ms=20 req=95c99401
+2026-10-19T08:47:53.547Z ERROR api-gateway ERR_VALIDATION endpoint=/api/cart status=400 latency_ms=3786 req=1ea5550d
+2026-10-19T08:48:08.138Z INFO payment-service OK endpoint=/api/payments status=200 latency_ms=146 req=7a53e8ea
+2026-10-19T08:49:25.194Z INFO api-gateway OK endpoint=/api/cart status=200 latency_ms=142 req=69e1b702
+2026-10-19T08:50:30.655Z INFO api-gateway OK endpoint=/api/orders status=200 latency_ms=168 req=dccb1c5d
+2026-10-19T08:51:25.721Z INFO api-gateway OK endpoint=/api/cart status=200 latency_ms=47 req=2a534cc1
+2026-10-19T08:52:20.916Z WARN api-gateway WARN_SLOW_QUERY endpoint=/api/orders status=200 latency_ms=2280 req=2894ceac
+2026-10-19T08:53:07.632Z INFO api-gateway OK endpoint=/api/checkout status=200 latency_ms=22 req=401b782d
+2026-10-19T08:54:15.632Z ERROR api-gateway ERR_VALIDATION endpoint=/api/cart status=400 latency_ms=3080 req=1344e70c
+2026-10-19T08:54:54.810Z ERROR api-gateway ERR_VALIDATION endpoint=/api/cart status=400 latency_ms=3974 req=e4179b99
+2026-10-19T08:55:15.742Z INFO auth-service OK endpoint=/api/auth/refresh status=200 latency_ms=90 req=5aa9d0c3
+2026-10-19T08:55:38.489Z WARN auth-service REFRESH_CONCURRENT endpoint=/api/auth/refresh status=200 latency_ms=20 req=f929a214 session=s195
+2026-10-19T08:55:38.503Z ERROR auth-service ERR_TOKEN_REFRESH_RACE endpoint=/api/auth/refresh status=500 latency_ms=57 req=012fb8c9 session=s195 detail=refresh_token_already_rotated
+2026-10-19T08:55:46.112Z INFO api-gateway OK endpoint=/api/cart status=200 latency_ms=175 req=3265f738
+2026-10-19T08:57:14.786Z WARN auth-service REFRESH_CONCURRENT endpoint=/api/auth/refresh status=200 latency_ms=52 req=e59693b1 session=s926
+2026-10-19T08:57:14.791Z ERROR auth-service ERR_TOKEN_REFRESH_RACE endpoint=/api/auth/refresh status=500 latency_ms=44 req=b4431955 session=s926 detail=refresh_token_already_rotated
+2026-10-19T08:57:46.205Z INFO api-gateway OK endpoint=/api/cart status=200 latency_ms=16 req=0e2ed066
+2026-10-19T08:58:45.646Z INFO payment-service OK endpoint=/api/payments status=200 latency_ms=54 req=98035cb0
+2026-10-19T08:59:52.693Z INFO api-gateway OK endpoint=/api/cart status=200 latency_ms=143 req=a441d3c5
+2026-10-19T09:00:36.797Z INFO api-gateway OK endpoint=/api/checkout status=200 latency_ms=98 req=3e03b06b
+2026-10-19T09:01:48.142Z INFO auth-service OK endpoint=/api/auth/login status=200 latency_ms=161 req=474d9107
+2026-10-19T09:03:10.393Z INFO payment-service OK endpoint=/api/payments status=200 latency_ms=106 req=0172368c
+2026-10-19T09:03:35.228Z INFO auth-service OK endpoint=/api/auth/login status=200 latency_ms=20 req=66cb582b
+2026-10-19T09:04:46.603Z ERROR api-gateway ERR_DB_TIMEOUT endpoint=/api/orders status=500 latency_ms=4197 req=2b8cd740
+2026-10-19T09:05:58.109Z INFO api-gateway OK endpoint=/api/cart status=200 latency_ms=27 req=2df83703
+2026-10-19T09:07:16.115Z INFO api-gateway OK endpoint=/api/checkout status=200 latency_ms=160 req=4fef120e
+2026-10-19T09:08:41.511Z INFO api-gateway OK endpoint=/api/orders status=200 latency_ms=116 req=d120328d
+2026-10-19T09:09:52.798Z INFO auth-service OK endpoint=/api/auth/refresh status=200 latency_ms=97 req=6de72e17
+2026-10-19T09:10:44.971Z INFO api-gateway OK endpoint=/api/checkout status=200 latency_ms=59 req=d8cbb229
+2026-10-19T09:11:08.379Z INFO payment-service OK endpoint=/api/payments status=200 latency_ms=58 req=d5ef0009
+2026-10-19T09:12:23.326Z INFO api-gateway OK endpoint=/api/cart status=200 latency_ms=174 req=4c1ed4f8
+2026-10-19T09:13:36.220Z INFO api-gateway OK endpoint=/api/orders status=200 latency_ms=127 req=60facbbc
+2026-10-19T09:14:28.775Z ERROR auth-service ERR_RATE_LIMIT endpoint=/api/auth/login status=429 latency_ms=3738 req=384b596e
+2026-10-19T09:15:08.576Z INFO api-gateway OK endpoint=/api/orders status=200 latency_ms=21 req=b2f4ceca
+2026-10-19T09:16:10.603Z ERROR auth-service ERR_RATE_LIMIT endpoint=/api/auth/login status=429 latency_ms=1562 req=80eac1cc
+2026-10-19T09:17:13.485Z ERROR api-gateway ERR_VALIDATION endpoint=/api/cart status=400 latency_ms=2749 req=3e06e87d
+2026-10-19T09:17:24.319Z INFO api-gateway OK endpoint=/api/orders status=200 latency_ms=40 req=d23d0c9a
+2026-10-19T09:17:33.771Z INFO api-gateway OK endpoint=/api/products status=200 latency_ms=68 req=8cd6e5c6
+2026-10-19T09:17:49.921Z INFO api-gateway OK endpoint=/api/products status=200 latency_ms=168 req=ee37fe63
+2026-10-19T09:18:52.730Z INFO api-gateway OK endpoint=/api/checkout status=200 latency_ms=157 req=9b9ddfe1
+2026-10-19T09:20:00.611Z ERROR api-gateway ERR_VALIDATION endpoint=/api/cart status=400 latency_ms=3315 req=a71b08d9
+2026-10-19T09:20:56.454Z INFO api-gateway OK endpoint=/api/orders status=200 latency_ms=136 req=06e6a4d1
+2026-10-19T09:21:19.241Z INFO payment-service OK endpoint=/api/payments status=200 latency_ms=28 req=8c8a8277
+2026-10-19T09:22:26.427Z WARN auth-service REFRESH_CONCURRENT endpoint=/api/auth/refresh status=200 latency_ms=20 req=cac7a5f2 session=s591
+2026-10-19T09:22:26.436Z ERROR auth-service ERR_TOKEN_REFRESH_RACE endpoint=/api/auth/refresh status=500 latency_ms=38 req=13927c67 session=s591 detail=refresh_token_already_rotated
+2026-10-19T09:22:43.871Z INFO api-gateway OK endpoint=/api/cart status=200 latency_ms=18 req=005000a2
+2026-10-19T09:23:31.029Z ERROR api-gateway ERR_CACHE_STAMPEDE endpoint=/api/products status=503 latency_ms=3015 req=2a0ddfa3
+2026-10-19T09:24:11.015Z INFO api-gateway OK endpoint=/api/orders status=200 latency_ms=63 req=3657c784
+2026-10-19T09:24:32.209Z INFO payment-service OK endpoint=/api/payments status=200 latency_ms=89 req=49159aa3
+2026-10-19T09:25:48.910Z INFO api-gateway OK endpoint=/api/checkout status=200 latency_ms=129 req=7c20b914
+2026-10-19T09:26:54.234Z INFO payment-service OK endpoint=/api/payments status=200 latency_ms=33 req=3537cf37
+2026-10-19T09:27:03.704Z ERROR api-gateway ERR_DB_TIMEOUT endpoint=/api/orders status=500 latency_ms=3776 req=bc691633
+2026-10-19T09:27:26.833Z INFO payment-service OK endpoint=/api/payments status=200 latency_ms=51 req=aad55a86
+2026-10-19T09:28:30.033Z WARN api-gateway WARN_SLOW_QUERY endpoint=/api/orders status=200 latency_ms=2717 req=965115b7
+2026-10-19T09:29:03.026Z WARN auth-service REFRESH_CONCURRENT endpoint=/api/auth/refresh status=200 latency_ms=53 req=2b2d2c4c session=s785
+2026-10-19T09:29:03.062Z ERROR auth-service ERR_TOKEN_REFRESH_RACE endpoint=/api/auth/refresh status=500 latency_ms=41 req=8227f992 session=s785 detail=refresh_token_already_rotated
+2026-10-19T09:29:19.533Z INFO api-gateway OK endpoint=/api/products status=200 latency_ms=92 req=a6126f7b
+2026-10-19T09:29:44.061Z ERROR payment-service ERR_UPSTREAM_502 endpoint=/api/payments status=502 latency_ms=1264 req=757ac85f
+2026-10-19T09:30:03.777Z INFO api-gateway OK endpoint=/api/cart status=200 latency_ms=31 req=b431685a
+2026-10-19T09:30:26.156Z INFO payment-service OK endpoint=/api/payments status=200 latency_ms=152 req=6ba36c22
+2026-10-19T09:30:38.600Z INFO api-gateway OK endpoint=/api/products status=200 latency_ms=138 req=45c3f1ae
+2026-10-19T09:30:46.737Z INFO auth-service OK endpoint=/api/auth/refresh status=200 latency_ms=20 req=c9644be5
+2026-10-19T09:31:51.196Z INFO api-gateway OK endpoint=/api/orders status=200 latency_ms=58 req=cb4af259
+2026-10-19T09:32:59.569Z INFO payment-service OK endpoint=/api/payments status=200 latency_ms=19 req=084c9e1d
+2026-10-19T09:33:38.545Z ERROR api-gateway ERR_DB_TIMEOUT endpoint=/api/orders status=500 latency_ms=3780 req=962851f8
+2026-10-19T09:35:06.295Z INFO auth-service OK endpoint=/api/auth/login status=200 latency_ms=114 req=eb56ee73
+2026-10-19T09:35:52.652Z INFO payment-service OK endpoint=/api/payments status=200 latency_ms=92 req=b24cda72
+2026-10-19T09:36:58.588Z INFO auth-service OK endpoint=/api/auth/refresh status=200 latency_ms=174 req=41e15101
+2026-10-19T09:37:55.206Z WARN api-gateway WARN_SLOW_QUERY endpoint=/api/orders status=200 latency_ms=1782 req=a53eb1f0
+2026-10-19T09:39:09.873Z INFO api-gateway OK endpoint=/api/orders status=200 latency_ms=28 req=caedc52a
+2026-10-19T09:39:21.428Z ERROR api-gateway ERR_DB_TIMEOUT endpoint=/api/orders status=500 latency_ms=2239 req=05fae461
+2026-10-19T09:39:35.270Z INFO auth-service OK endpoint=/api/auth/refresh status=200 latency_ms=58 req=1c9bc59f
+2026-10-19T09:39:44.859Z INFO payment-service OK endpoint=/api/payments status=200 latency_ms=88 req=2a00de28
+2026-10-19T09:40:22.324Z ERROR auth-service ERR_RATE_LIMIT endpoint=/api/auth/login status=429 latency_ms=4251 req=192eb806
+2026-10-19T09:41:47.743Z INFO api-gateway OK endpoint=/api/checkout status=200 latency_ms=112 req=37293c79
+2026-10-19T09:43:17.529Z INFO auth-service OK endpoint=/api/auth/refresh status=200 latency_ms=48 req=9f0c9244
+2026-10-19T09:43:38.524Z ERROR payment-service ERR_UPSTREAM_502 endpoint=/api/payments status=502 latency_ms=4749 req=2d00a73c
+2026-10-19T09:43:54.788Z INFO api-gateway OK endpoint=/api/orders status=200 latency_ms=17 req=65f45c06
+2026-10-19T09:45:18.670Z ERROR payment-service ERR_UPSTREAM_502 endpoint=/api/payments status=502 latency_ms=2000 req=cbbb9f87
+2026-10-19T09:46:45.593Z INFO payment-service OK endpoint=/api/payments status=200 latency_ms=93 req=d2694b74
+2026-10-19T09:47:06.782Z INFO api-gateway OK endpoint=/api/checkout status=200 latency_ms=122 req=2947ba0e
+2026-10-19T09:48:21.795Z INFO auth-service OK endpoint=/api/auth/refresh status=200 latency_ms=22 req=d7a64395
+2026-10-19T09:48:28.109Z WARN auth-service REFRESH_CONCURRENT endpoint=/api/auth/refresh status=200 latency_ms=34 req=6a377675 session=s876
+2026-10-19T09:48:28.132Z ERROR auth-service ERR_TOKEN_REFRESH_RACE endpoint=/api/auth/refresh status=500 latency_ms=39 req=492509ea session=s876 detail=refresh_token_already_rotated
+2026-10-19T09:49:52.623Z INFO api-gateway OK endpoint=/api/orders status=200 latency_ms=78 req=08487e4d
+2026-10-19T09:51:06.156Z WARN api-gateway WARN_SLOW_QUERY endpoint=/api/orders status=200 latency_ms=1697 req=12fe5d0b
+2026-10-19T09:51:57.062Z INFO auth-service OK endpoint=/api/auth/login status=200 latency_ms=28 req=814e5dfe
+2026-10-19T09:52:47.649Z INFO auth-service OK endpoint=/api/auth/login status=200 latency_ms=172 req=fde72e1d
+2026-10-19T09:53:33.829Z INFO auth-service OK endpoint=/api/auth/refresh status=200 latency_ms=107 req=d80ce741
+2026-10-19T09:53:46.935Z INFO api-gateway OK endpoint=/api/products status=200 latency_ms=97 req=3b05fc6b
+2026-10-19T09:55:13.379Z INFO api-gateway OK endpoint=/api/products status=200 latency_ms=166 req=271116c9
+2026-10-19T09:56:20.105Z WARN auth-service REFRESH_CONCURRENT endpoint=/api/auth/refresh status=200 latency_ms=36 req=78224bb1 session=s635
+2026-10-19T09:56:20.129Z ERROR auth-service ERR_TOKEN_REFRESH_RACE endpoint=/api/auth/refresh status=500 latency_ms=27 req=38a54bf3 session=s635 detail=refresh_token_already_rotated
+2026-10-19T09:56:26.872Z INFO auth-service OK endpoint=/api/auth/refresh status=200 latency_ms=16 req=0242b215
+2026-10-19T09:57:19.519Z INFO api-gateway OK endpoint=/api/checkout status=200 latency_ms=50 req=9b3760b2
+2026-10-19T09:58:31.963Z ERROR api-gateway ERR_DB_TIMEOUT endpoint=/api/orders status=500 latency_ms=3485 req=c91b93df
+2026-10-19T09:58:40.297Z INFO api-gateway OK endpoint=/api/cart status=200 latency_ms=84 req=94c16434

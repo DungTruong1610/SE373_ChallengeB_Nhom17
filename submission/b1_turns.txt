@@ -1,0 +1,5 @@
+Mình đang điều tra lỗi ERR_TOKEN_REFRESH_RACE ở /api/auth/refresh. Ràng buộc bắt buộc: phải giữ API backward compatible vì client mobile v1 phụ thuộc response hiện tại. Đọc data/logs/app-2026-10-11.log và cho biết lỗi này xảy ra trong hoàn cảnh nào.
+Ghi nhận: team đã thử tăng token TTL từ 900s lên 1800s vào ngày 15/10 nhưng không giúp. Đọc data/logs/app-2026-10-15.log để xác nhận điều đó bằng số liệu.
+Đọc thêm data/logs/app-2026-10-20.log: số lần lỗi ERR_TOKEN_REFRESH_RACE hôm đó so với hai ngày đã xem thế nào?
+Tóm tắt nhanh: chúng ta đang điều tra lỗi gì, ràng buộc là gì, đã thử cách nào và kết quả ra sao, bước tiếp theo là gì?
+Làm bước tiếp theo đó đi.
