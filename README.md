@@ -1,5 +1,15 @@
 # SE373 Buổi 7: Challenge B, Context management
 
+Bài làm của nhóm 17.
+
+| STT | MSSV | Họ và tên |
+|---:|---|---|
+| 81 | 24520343 | Nguyễn Trung Dũng |
+| 82 | 24520352 | Trương Đình Việt Dũng |
+| 83 | 24520398 | Trần Đình Duy |
+| 84 | 24521140 | Võ Hoàng Nghi |
+| 85 | 24521040 | Bùi Duy Mạnh |
+
 Môn SE373 (Agentic AI), buổi 7 "Memory, Context Engineering & Prompt Caching". Repo này làm **Challenge B** (slide 32–33):
 giữ context nhỏ gọn mà agent vẫn làm đúng việc.
 
